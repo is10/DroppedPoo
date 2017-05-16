@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_weight="0.23"
             android:gravity="center"
             android:text="@string/poo_get"
             android:textSize="80sp"
@@ -26,23 +26,25 @@
         <ImageButton
             android:id="@+id/stoodImageButton"
             android:layout_width="match_parent"
-            android:layout_height="254dp"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/titleGet"
-            android:layout_weight="0.96"
+            android:layout_weight="0.87"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="129dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:gravity="left|center|fill"
+            android:orientation="horizontal"
+            android:weightSum="1">
 
             <Button
                 android:id="@+id/tweet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/tweet_button" />
+                android:gravity="center"
+                android:text="@string/tweet_button"
+                android:layout_weight="0.25" />
 
         </LinearLayout>
     </LinearLayout>
