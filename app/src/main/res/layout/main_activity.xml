@@ -16,17 +16,13 @@
         android:weightSum="1">
 
         <EditText
-            android:id="@+id/startTitle"
+            android:id="@+id/editText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_weight="0.21"
-            android:gravity="center"
+            android:layout_weight="0.24"
+            android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/start_title"
-            android:textSize="40sp" />
+            android:text="@string/start_title" />
 
         <ImageView
             android:id="@+id/imageView"
